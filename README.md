@@ -3,6 +3,8 @@
 This repository is a bounded viability spike for reconstructing and comparing a recurring
 Canadian government publication series from public Internet Archive derivatives.
 
+Live evidence explorer: https://record-versioned.vercel.app/
+
 The spike answers one question:
 
 > Can adjacent reports be compared at the section level while keeping every result tied to
