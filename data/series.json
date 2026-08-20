@@ -1,0 +1,32 @@
+{
+  "id": "alberta-state-of-environment-1995-1999",
+  "title": "Alberta State of the Environment Annual Report",
+  "source_collection": "governmentpublications",
+  "volumes": [
+    {
+      "year": 1995,
+      "identifier": "albertastateofen1995albe",
+      "storage_base_url": "https://ia600401.us.archive.org/25/items/albertastateofen1995albe"
+    },
+    {
+      "year": 1996,
+      "identifier": "albertastateofen1996albe",
+      "storage_base_url": "https://ia801901.us.archive.org/14/items/albertastateofen1996albe"
+    },
+    {
+      "year": 1997,
+      "identifier": "albertastateofen1997albe",
+      "storage_base_url": "https://ia800406.us.archive.org/15/items/albertastateofen1997albe"
+    },
+    {
+      "year": 1998,
+      "identifier": "albertastateofen1998albe",
+      "storage_base_url": "https://ia600906.us.archive.org/25/items/albertastateofen1998albe"
+    },
+    {
+      "year": 1999,
+      "identifier": "albertastateofen1999albe",
+      "storage_base_url": "https://ia600407.us.archive.org/23/items/albertastateofen1999albe"
+    }
+  ]
+}

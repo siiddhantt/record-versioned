@@ -1,0 +1,653 @@
+{
+  "title": "Ontario Ministry of Housing Annual Report",
+  "description": "A bounded reconstruction of three consecutive annual reports with scope-aware, page-linked section alignments.",
+  "volumes": [
+    {
+      "year": 1974,
+      "label": "1974/75",
+      "identifier": "39290109040107",
+      "catalogue_date": "1975",
+      "page_count": 40,
+      "source_url": "https://archive.org/details/39290109040107"
+    },
+    {
+      "year": 1975,
+      "label": "1975/76",
+      "identifier": "39290109040115",
+      "catalogue_date": "1975",
+      "page_count": 56,
+      "source_url": "https://archive.org/details/39290109040115"
+    },
+    {
+      "year": 1976,
+      "label": "1976/77",
+      "identifier": "39290109040123",
+      "catalogue_date": "1975",
+      "page_count": 56,
+      "source_url": "https://archive.org/details/39290109040123"
+    }
+  ],
+  "scopes": [
+    {
+      "id": "ministry",
+      "label": "Ontario Ministry of Housing"
+    },
+    {
+      "id": "ohc",
+      "label": "Ontario Housing Corporation"
+    },
+    {
+      "id": "omc",
+      "label": "Ontario Mortgage Corporation"
+    },
+    {
+      "id": "oshc",
+      "label": "Ontario Student Housing Corporation"
+    },
+    {
+      "id": "npdc",
+      "label": "North Pickering Development Corporation"
+    }
+  ],
+  "review": {
+    "corpus": "ontario-housing-1974-1977",
+    "reviewer": "Siddhant Rai with source-page verification",
+    "criteria": "A valid alignment names the same program, branch, scoped financial note, or equivalent structural section in adjacent volumes. A shared phrase alone is insufficient.",
+    "reviewed_count": 24,
+    "valid_count": 23,
+    "invalid_count": 1,
+    "precision": 0.9583,
+    "minimum_sample": 20,
+    "target_precision": 0.9,
+    "verdict": "viable_for_bounded_prototype"
+  },
+  "stories": [
+    {
+      "id": "planning-grants",
+      "type": "Funding change",
+      "scope": "ministry",
+      "kicker": "Planning support",
+      "title": "Planning grants expand to $1.75 million",
+      "summary": "The 1975/76 report describes a $1.75 million grant program for municipalities with limited planning resources, an increase of $1.25 million from the previous fiscal year.",
+      "why_it_matters": "A researcher can find the scale change and verify the language without reading both annual reports end to end.",
+      "alignment_indices": [4]
+    },
+    {
+      "id": "housing-action",
+      "type": "Program timeline",
+      "scope": "ministry",
+      "kicker": "Housing policy",
+      "title": "Ontario Housing Action moves beyond its original window",
+      "summary": "The program appears across all three volumes. The 1975/76 report says it was modified and extended; the following report looks back on its original two-year design.",
+      "why_it_matters": "Following one named program across the sequence turns isolated reports into a traceable policy history.",
+      "alignment_indices": [6, 16]
+    },
+    {
+      "id": "rent-supplement",
+      "type": "Scale reported",
+      "scope": "ohc",
+      "kicker": "Housing access",
+      "title": "Rent supplement reporting records 5,899 units",
+      "summary": "The 1976/77 report records 5,899 private-sector rent-geared-to-income units and says program costs were shared with a federal partner and 48 municipalities.",
+      "why_it_matters": "The aligned section makes a concrete measure of program scale discoverable from the preceding annual report.",
+      "alignment_indices": [17]
+    },
+    {
+      "id": "neighborhood-improvement",
+      "type": "Program continuity",
+      "scope": "ministry",
+      "kicker": "Community renewal",
+      "title": "Neighborhood improvement carries into the next year",
+      "summary": "The 1975/76 report records 33 participating municipalities and $15 million in federal allocation. The next volume continues the same program as assistance for older residential neighborhoods.",
+      "why_it_matters": "The record shows both a dated allocation and the program's continued purpose in the following volume.",
+      "alignment_indices": [22]
+    },
+    {
+      "id": "equal-opportunity",
+      "type": "Implementation",
+      "scope": "ministry",
+      "kicker": "Public administration",
+      "title": "Equal Opportunity moves from launch to implementation",
+      "summary": "One report records the program's formal establishment in May 1975. The next describes work on the implementation systems needed to operate it.",
+      "why_it_matters": "A repeated heading becomes a small administrative timeline instead of another isolated mention.",
+      "alignment_indices": [20]
+    }
+  ],
+  "alignments": [
+    {
+      "classification": "same",
+      "similarity": 1.0,
+      "scope": "ohc",
+      "scope_label": "Ontario Housing Corporation",
+      "left": {
+        "year": 1974,
+        "volume_label": "1974/75",
+        "heading": "1. COMPARATIVE FIGURES",
+        "page_index": 29,
+        "context": "Notes to Financial Statements December 31, 1974 1. COMPARATIVE FIGURES Comparative figures have been reclassified where necessary to conform to 1974 presentation. 2. ACCOUNTING POLICIES",
+        "source_url": "https://archive.org/details/39290109040107/page/n29/mode/2up"
+      },
+      "right": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "1. COMPARATIVE FIGURES",
+        "page_index": 34,
+        "context": "Notes to Financial Statements December 31, 1975 1. COMPARATIVE FIGURES Comparative figures have been reclassified where necessary to conform to 1975 presenta- tion. 2. ACCOUNTING POLICIES",
+        "source_url": "https://archive.org/details/39290109040115/page/n34/mode/2up"
+      },
+      "review_note": "Same OHC financial-note section."
+    },
+    {
+      "classification": "same",
+      "similarity": 1.0,
+      "scope": "ohc",
+      "scope_label": "Ontario Housing Corporation",
+      "left": {
+        "year": 1974,
+        "volume_label": "1974/75",
+        "heading": "2. ACCOUNTING POLICIES",
+        "page_index": 29,
+        "context": "where necessary to conform to 1974 presentation. 2. ACCOUNTING POLICIES (a) Other Assets Appliances valued at $45,405 were in storage as at December 31, 1974, and are included in other assets. These appliances will be charged",
+        "source_url": "https://archive.org/details/39290109040107/page/n29/mode/2up"
+      },
+      "right": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "2. ACCOUNTING POLICIES",
+        "page_index": 34,
+        "context": "where necessary to conform to 1975 presenta- tion. 2. ACCOUNTING POLICIES (a) Other Assets Appliances valued at $19,307 were in stor- age as at December 31, 1975, and are in- cluded in other assets. These appliances will",
+        "source_url": "https://archive.org/details/39290109040115/page/n34/mode/2up"
+      },
+      "review_note": "Same OHC accounting-policy section."
+    },
+    {
+      "classification": "same",
+      "similarity": 1.0,
+      "scope": "ohc",
+      "scope_label": "Ontario Housing Corporation",
+      "left": {
+        "year": 1974,
+        "volume_label": "1974/75",
+        "heading": "5. LOSS ON PROVINCIAL HOUSING",
+        "page_index": 29,
+        "context": "All properties so registered were sold to the Ontario Land Corporation on March 31, 1975. 5. LOSS ON PROVINCIAL HOUSING OPERATIONS Provincial housing properties are those that are developed and administered by the Ontario Housing Corporation. Individual",
+        "source_url": "https://archive.org/details/39290109040107/page/n29/mode/2up"
+      },
+      "right": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": ". LOSS ON PROVINCIAL HOUSING",
+        "page_index": 34,
+        "context": "Ontario were transferred to the Ontario Land Corporation on March 31, 1975. . LOSS ON PROVINCIAL HOUSING OPERATIONS Provincial housing properties are those that are developed and administered by the Ontario Housing Corporation. Individual property",
+        "source_url": "https://archive.org/details/39290109040115/page/n34/mode/2up"
+      },
+      "review_note": "Same OHC operational-loss note."
+    },
+    {
+      "classification": "same",
+      "similarity": 1.0,
+      "scope": "omc",
+      "scope_label": "Ontario Mortgage Corporation",
+      "left": {
+        "year": 1974,
+        "volume_label": "1974/75",
+        "heading": "5. REMUNERATION OF DIRECTORS",
+        "page_index": 37,
+        "context": "submitted as part of the annual estimates process. 5. REMUNERATION OF DIRECTORS AND SENIOR OFFICER The aggregate direct remuneration for the seven directors and one senior officer for the year ended December 31,",
+        "source_url": "https://archive.org/details/39290109040107/page/n37/mode/2up"
+      },
+      "right": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "REMUNERATION OF DIRECTORS",
+        "page_index": 52,
+        "context": "office use are charged to supplies and equip- ment in the year of acquisition. REMUNERATION OF DIRECTORS AND SENIOR OFFICERS The aggregate direct remuneration for the seven directors and one senior officer, for the three month period ended March 31, 1976 was",
+        "source_url": "https://archive.org/details/39290109040115/page/n52/mode/2up"
+      },
+      "review_note": "Same OMC remuneration disclosure."
+    },
+    {
+      "classification": "same",
+      "similarity": 1.0,
+      "scope": "ministry",
+      "scope_label": "Ontario Ministry of Housing",
+      "left": {
+        "year": 1974,
+        "volume_label": "1974/75",
+        "heading": "Community Planning Study Grants",
+        "page_index": 6,
+        "context": "by-laws and 16 municipalities for zoning by-laws. Community Planning Study Grants Committed as of March 31, 1975 PICKOHIAG ae cet hte Sess ak $50,000 PRTEISLOVY Were pee nie orcad Lobia wise gallows 1,500 PIVINGY ae Betta ah so 2 ela oneal: Me 3,200",
+        "source_url": "https://archive.org/details/39290109040107/page/n6/mode/2up"
+      },
+      "right": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "Community Planning Study Grants",
+        "page_index": 13,
+        "context": "by request prior to their submission to the ministry or the Ontario Municipal Board for approval. Community Planning Study Grants The branch administers a $1.75 million grant pro- gram (an increase of $1.25 million from the last fiscal year) designed to assist those municipalities with limited financial resources and planning staff",
+        "source_url": "https://archive.org/details/39290109040115/page/n13/mode/2up"
+      },
+      "review_note": "Same ministry grant program."
+    },
+    {
+      "classification": "same",
+      "similarity": 1.0,
+      "scope": "ministry",
+      "scope_label": "Ontario Ministry of Housing",
+      "left": {
+        "year": 1974,
+        "volume_label": "1974/75",
+        "heading": "COMMUNITY RENEWAL BRANCH",
+        "page_index": 8,
+        "context": "ards to ensure the attainment of ished targets. COMMUNITY RENEWAL BRANCH Government services in the areas of neighborhood improvement, housing rehabilitation and urban renewal are provided by the community renewal branch of the",
+        "source_url": "https://archive.org/details/39290109040107/page/n8/mode/2up"
+      },
+      "right": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "COMMUNITY RENEWAL BRANCH",
+        "page_index": 16,
+        "context": "COMMUNITY RENEWAL BRANCH Ministry services in the areas of neighborhood im- provement, housing rehabilitation and urban re- newal are provided by the ministry’s community renewal branch. The specific programs adminis-",
+        "source_url": "https://archive.org/details/39290109040115/page/n16/mode/2up"
+      },
+      "review_note": "Same ministry branch."
+    },
+    {
+      "classification": "same",
+      "similarity": 1.0,
+      "scope": "ministry",
+      "scope_label": "Ontario Ministry of Housing",
+      "left": {
+        "year": 1974,
+        "volume_label": "1974/75",
+        "heading": "ONTARIO HOUSING ACTION PROGRAM",
+        "page_index": 15,
+        "context": "Markham Total ONTARIO HOUSING ACTION PROGRAM Mortgage Commitments 1974/75 Builder Anglo York Industrial Limited",
+        "source_url": "https://archive.org/details/39290109040107/page/n15/mode/2up"
+      },
+      "right": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "ONTARIO HOUSING ACTION PROGRAM",
+        "page_index": 7,
+        "context": "ONTARIO HOUSING ACTION PROGRAM Although scheduled to end March 31, 1976, the program has been modified and extended to March Sb Ae 1975 Activities",
+        "source_url": "https://archive.org/details/39290109040115/page/n7/mode/2up"
+      },
+      "review_note": "Same named housing program."
+    },
+    {
+      "classification": "same",
+      "similarity": 0.845,
+      "scope": "oshc",
+      "scope_label": "Ontario Student Housing Corporation",
+      "left": {
+        "year": 1974,
+        "volume_label": "1974/75",
+        "heading": "5. RENTAL HOUSING PROPERTY, AT",
+        "page_index": 32,
+        "context": "sipalities throughout Ontario. SS 5. RENTAL HOUSING PROPERTY, AT COST This property is located in Toronto to provide housing for University of Toronto students. The property is administered by the",
+        "source_url": "https://archive.org/details/39290109040107/page/n32/mode/2up"
+      },
+      "right": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": ". RENTAL HOUSING PROPERTY, AT COST",
+        "page_index": 39,
+        "context": "sities or colleges in eleven municipalities throughout Ontario. . RENTAL HOUSING PROPERTY, AT COST This property is located in Toronto to provide housing for University of Toronto students. The property is managed by a trust company on be- half of the Corporation and net operating costs",
+        "source_url": "https://archive.org/details/39290109040115/page/n39/mode/2up"
+      },
+      "review_note": "Same OSHC property note with OCR truncation."
+    },
+    {
+      "classification": "possible_rename",
+      "similarity": 0.797,
+      "scope": "ohc",
+      "scope_label": "Ontario Housing Corporation",
+      "left": {
+        "year": 1974,
+        "volume_label": "1974/75",
+        "heading": "Loss on Public Housing Operations",
+        "page_index": 27,
+        "context": "Statement of Operations Year ended December 31, 1974 Loss on Public Housing Operations Provincial housing operations $ 51,419,627 $ 42,965 PRETITEL TEVOIUG sas Fhe Wk aa petted aay SI ea ee Pe See Expenses {",
+        "source_url": "https://archive.org/details/39290109040107/page/n27/mode/2up"
+      },
+      "right": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "LOSS ON HOUSING OPERATIONS",
+        "page_index": 29,
+        "context": "Year ended December 31, 1975 1975 1974 LOSS ON HOUSING OPERATIONS Provincial housing operations Rental revenue $ 62,961,565 $ 51,419,627 Expenses Property operating expenses 78,432,197 Dole ooe",
+        "source_url": "https://archive.org/details/39290109040115/page/n29/mode/2up"
+      },
+      "review_note": "Same OHC statement line with a shortened heading."
+    },
+    {
+      "classification": "possible_rename",
+      "similarity": 0.75,
+      "scope": "ohc",
+      "scope_label": "Ontario Housing Corporation",
+      "left": {
+        "year": 1974,
+        "volume_label": "1974/75",
+        "heading": "4. INVESTMENT IN PROPERTIES UNDER",
+        "page_index": 29,
+        "context": "over revenue for 1973 for that Corporation has been restated. 4. INVESTMENT IN PROPERTIES UNDER DEVELOPMENT As at December 31, 1974, title to properties amounting to approximately $175,000,000 was registered in the name of Her Majesty The",
+        "source_url": "https://archive.org/details/39290109040107/page/n29/mode/2up"
+      },
+      "right": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "3. INVESTMENT IN PROPERTIES",
+        "page_index": 34,
+        "context": "rations, and charged to rental housing prop- erty operating expenses. 3. INVESTMENT IN PROPERTIES UNDER DEVELOPMENT Properties amounting to approximately $181,000,000 registered in the name of Her Ma- jesty The Queen In Right Of The Province of",
+        "source_url": "https://archive.org/details/39290109040115/page/n34/mode/2up"
+      },
+      "review_note": "Same OHC investment note, renumbered."
+    },
+    {
+      "classification": "possible_rename",
+      "similarity": 0.678,
+      "scope": "ministry",
+      "scope_label": "Ontario Ministry of Housing",
+      "left": {
+        "year": 1974,
+        "volume_label": "1974/75",
+        "heading": "NS ADMINISTRATION DIVISION",
+        "page_index": 6,
+        "context": "NS ADMINISTRATION DIVISION division performs a regulatory role in the inistration of applications made to the ster under the Planning Act. The onsibilities primarily relate to matters",
+        "source_url": "https://archive.org/details/39290109040107/page/n6/mode/2up"
+      },
+      "right": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "-PLANS ADMINISTRATION DIVISION",
+        "page_index": 10,
+        "context": "-PLANS ADMINISTRATION DIVISION The plans administration division (PAD) carries out a regulatory function by reviewing applications made under the Planning Act. Official plans, re- stricted area (zoning) bylaws, minister's zoning or-",
+        "source_url": "https://archive.org/details/39290109040115/page/n10/mode/2up"
+      },
+      "review_note": "Same division; left OCR lost the word prefix."
+    },
+    {
+      "classification": "possible_rename",
+      "similarity": 0.662,
+      "scope": "omc",
+      "scope_label": "Ontario Mortgage Corporation",
+      "left": {
+        "year": 1974,
+        "volume_label": "1974/75",
+        "heading": "‘RIO MORTGAGE CORPORATION SCHEDULE 1",
+        "page_index": 36,
+        "context": "NG SPIO) Y EAR: ik: faecal ds chy octets Fico d do ww Mee We eed HERES OOS $ 320,366 $ 1,460,704 otes to financial statements. ‘RIO MORTGAGE CORPORATION SCHEDULE 1 istration Expenses »nded December 31, 1974 | (Ee, 1974 1973",
+        "source_url": "https://archive.org/details/39290109040107/page/n36/mode/2up"
+      },
+      "right": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "ONTARIO MORTGAGE CORPORATION SCHEDULE II",
+        "page_index": 46,
+        "context": "} \\ ONTARIO MORTGAGE CORPORATION SCHEDULE II Administration Expenses Year ended December 31, 1975 (OAS 1974 salaries and benefits $1,1 73,190 - S 735,056",
+        "source_url": "https://archive.org/details/39290109040115/page/n46/mode/2up"
+      },
+      "review_note": "Same OMC administration-expense schedule, renumbered."
+    },
+    {
+      "classification": "possible_rename",
+      "similarity": 0.642,
+      "scope": "oshc",
+      "scope_label": "Ontario Student Housing Corporation",
+      "left": {
+        "year": 1974,
+        "volume_label": "1974/75",
+        "heading": "ED LAND, AT COST",
+        "page_index": 32,
+        "context": "re funds, were liquidated early in 1975. :NTAL HOUSING PROPERTIES ON ED LAND, AT COST ost of student housing accommodation ‘ucted on land leased from universities ileges is being repaid to the Corporation he duration of the leases. When costs",
+        "source_url": "https://archive.org/details/39290109040107/page/n32/mode/2up"
+      },
+      "right": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "ON LEASED LAND, AT COST",
+        "page_index": 39,
+        "context": "dated in April 1975. 4. RENTAL HOUSING PROPERTIES ON LEASED LAND, AT COST The cost of student housing accommodation constructed on land leased from universities and colleges is being repaid to the Corporation over the duration of the leases. When costs are fully",
+        "source_url": "https://archive.org/details/39290109040115/page/n39/mode/2up"
+      },
+      "review_note": "Same OSHC leased-land note with OCR truncation."
+    },
+    {
+      "classification": "same",
+      "similarity": 1.0,
+      "scope": "oshc",
+      "scope_label": "Ontario Student Housing Corporation",
+      "left": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "1. COMPARATIVE FIGURES",
+        "page_index": 39,
+        "context": "Notes to Financial Statements December 31, 1975 1. COMPARATIVE FIGURES Comparative figures have been reclassified where necessary to conform to 1975 presenta- tion. 2. ACCOUNTING POLICIES",
+        "source_url": "https://archive.org/details/39290109040115/page/n39/mode/2up"
+      },
+      "right": {
+        "year": 1976,
+        "volume_label": "1976/77",
+        "heading": "COMPARATIVE FIGURES",
+        "page_index": 42,
+        "context": "Notes to Financial Statements December 31, 1976 COMPARATIVE FIGURES Comparative figures have been reclassified where necessary to conform to 1976 presentation. ACCOUNTING POLICIES (a) Deferred Income",
+        "source_url": "https://archive.org/details/39290109040123/page/n42/mode/2up"
+      },
+      "review_note": "Same OSHC financial-note section."
+    },
+    {
+      "classification": "same",
+      "similarity": 1.0,
+      "scope": "ohc",
+      "scope_label": "Ontario Housing Corporation",
+      "left": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "1. COMPARATIVE FIGURES",
+        "page_index": 34,
+        "context": "Notes to Financial Statements December 31, 1975 1. COMPARATIVE FIGURES Comparative figures have been reclassified where necessary to conform to 1975 presenta- tion. 2. ACCOUNTING POLICIES",
+        "source_url": "https://archive.org/details/39290109040115/page/n34/mode/2up"
+      },
+      "right": {
+        "year": 1976,
+        "volume_label": "1976/77",
+        "heading": "1. COMPARATIVE FIGURES",
+        "page_index": 33,
+        "context": "Notes to Financial Statements December 31, 1976 1. COMPARATIVE FIGURES Comparative figures have been reclassified where necessary to conform to 1976 presentation. 2. ACCOUNTING POLICIES (a) Investment in Federal-Provincial Properties",
+        "source_url": "https://archive.org/details/39290109040123/page/n33/mode/2up"
+      },
+      "review_note": "Same OHC financial-note section."
+    },
+    {
+      "classification": "same",
+      "similarity": 1.0,
+      "scope": "oshc",
+      "scope_label": "Ontario Student Housing Corporation",
+      "left": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "2. ACCOUNTING POLICIES",
+        "page_index": 39,
+        "context": "where necessary to conform to 1975 presenta- tion. 2. ACCOUNTING POLICIES (a) Deferred Income The deferred income account as at the statement date is the unearned portion of gain from sale of real estate.",
+        "source_url": "https://archive.org/details/39290109040115/page/n39/mode/2up"
+      },
+      "right": {
+        "year": 1976,
+        "volume_label": "1976/77",
+        "heading": "ACCOUNTING POLICIES",
+        "page_index": 42,
+        "context": "Comparative figures have been reclassified where necessary to conform to 1976 presentation. ACCOUNTING POLICIES (a) Deferred Income The deferred income account as at the statement date includes the unearned portion of gain from sale of real estate (1976 - $74,900; 1975 - $76,600). For the 1976 year end the account",
+        "source_url": "https://archive.org/details/39290109040123/page/n42/mode/2up"
+      },
+      "review_note": "Same OSHC accounting-policy section."
+    },
+    {
+      "classification": "possible_rename",
+      "similarity": 0.788,
+      "scope": "ministry",
+      "scope_label": "Ontario Ministry of Housing",
+      "left": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "ONTARIO HOUSING ACTION PROGRAM",
+        "page_index": 7,
+        "context": "ONTARIO HOUSING ACTION PROGRAM Although scheduled to end March 31, 1976, the program has been modified and extended to March Sb Ae 1975 Activities",
+        "source_url": "https://archive.org/details/39290109040115/page/n7/mode/2up"
+      },
+      "right": {
+        "year": 1976,
+        "volume_label": "1976/77",
+        "heading": "Ontario Housing Action",
+        "page_index": 7,
+        "context": "Ontario Housing Action The Ontario Housing Action Program (OHAP) was originally designed as a two-year program scheduled to end on March 31, 1976. It met with considerable success and therefore",
+        "source_url": "https://archive.org/details/39290109040123/page/n7/mode/2up"
+      },
+      "review_note": "Same named housing program."
+    },
+    {
+      "classification": "possible_rename",
+      "similarity": 0.781,
+      "scope": "ohc",
+      "scope_label": "Ontario Housing Corporation",
+      "left": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": ". RENT SUPPLEMENT PAYMENTS",
+        "page_index": 34,
+        "context": "of Central Mortgage and Housing Corporation and two hundred and seven municipalities. . RENT SUPPLEMENT PAYMENTS TO LANDLORDS Under its rent supplement program, the Corpo- ration provides rent-geared-to-income accom- modation within the private sector to applicants",
+        "source_url": "https://archive.org/details/39290109040115/page/n34/mode/2up"
+      },
+      "right": {
+        "year": 1976,
+        "volume_label": "1976/77",
+        "heading": "RENT SUPPLEMENT PAYMENTS TO LANDLORDS",
+        "page_index": 34,
+        "context": "are prepared for the benefit of Central Mortgage and Housing Corporation and two hundred and forty-five municipalities. RENT SUPPLEMENT PAYMENTS TO LANDLORDS Under its rent supplement program, the Corporation provides rent-geared-to-income accommodation within the private sector to applicants from its waiting list. The cost of this program is shared with Central Mortgage and Housing Corporation and forty-eight municipalities. As at December 31, 1976, there were 5,899 such units",
+        "source_url": "https://archive.org/details/39290109040123/page/n34/mode/2up"
+      },
+      "review_note": "Same OHC rent-supplement section."
+    },
+    {
+      "classification": "possible_rename",
+      "similarity": 0.773,
+      "scope": "ohc",
+      "scope_label": "Ontario Housing Corporation",
+      "left": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": ". LOSS ON PROVINCIAL HOUSING",
+        "page_index": 34,
+        "context": "Ontario were transferred to the Ontario Land Corporation on March 31, 1975. . LOSS ON PROVINCIAL HOUSING OPERATIONS Provincial housing properties are those that are developed and administered by the Ontario Housing Corporation. Individual property",
+        "source_url": "https://archive.org/details/39290109040115/page/n34/mode/2up"
+      },
+      "right": {
+        "year": 1976,
+        "volume_label": "1976/77",
+        "heading": "LOSS ON PROVINCIAL HOUSING OPERATIONS",
+        "page_index": 34,
+        "context": "Furniture and equipment purchases for general office use are charged to supplies and equipment in the year of acquisition. LOSS ON PROVINCIAL HOUSING OPERATIONS Provincial housing properties are those that are developed and administered by the Ontario Housing Corporation. Individual property operating statements are prepared for the benefit of Central Mortgage and Housing Corporation and two hundred and forty-five municipalities.",
+        "source_url": "https://archive.org/details/39290109040123/page/n34/mode/2up"
+      },
+      "review_note": "Same OHC operational-loss note."
+    },
+    {
+      "classification": "possible_rename",
+      "similarity": 0.751,
+      "scope": "oshc",
+      "scope_label": "Ontario Student Housing Corporation",
+      "left": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "Housing Production",
+        "page_index": 23,
+        "context": "24 Housing Production The corporation’s rental housing activity reached 76,003 units, an increase of 4,038 over 1974. Those figures relate to units under construction and under management.",
+        "source_url": "https://archive.org/details/39290109040115/page/n23/mode/2up"
+      },
+      "right": {
+        "year": 1976,
+        "volume_label": "1976/77",
+        "heading": "sted housing production",
+        "page_index": 24,
+        "context": "tario Housing Corporation sted housing production ing the year, construction began on units-3,911 senior citizen and 202 ‘units. tal of 77 tender calls were issued: 10 for",
+        "source_url": "https://archive.org/details/39290109040123/page/n24/mode/2up"
+      },
+      "review_note": "Same production section; right OCR lost the prefix."
+    },
+    {
+      "classification": "possible_rename",
+      "similarity": 0.745,
+      "scope": "ministry",
+      "scope_label": "Ontario Ministry of Housing",
+      "left": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "EQUAL OPPORTUNITY PROGRAM",
+        "page_index": 6,
+        "context": "EQUAL OPPORTUNITY PROGRAM The Equal Opportunity Program in the ministry was formally established in May, 1975 in accordance with the guidelines for ministries and Crown agen- cies of the Ontario Government issued Sept. 12,",
+        "source_url": "https://archive.org/details/39290109040115/page/n6/mode/2up"
+      },
+      "right": {
+        "year": 1976,
+        "volume_label": "1976/77",
+        "heading": "] Opportunity Program",
+        "page_index": 6,
+        "context": "es ] Opportunity Program Opportunity Program in the scal year concentrated on ng implementation systems which ure that the program would have",
+        "source_url": "https://archive.org/details/39290109040123/page/n6/mode/2up"
+      },
+      "review_note": "Same ministry program with OCR truncation."
+    },
+    {
+      "classification": "possible_rename",
+      "similarity": 0.743,
+      "scope": "npdc",
+      "scope_label": "North Pickering Development Corporation",
+      "left": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "~LAND CO-ORDINATION BRANCH",
+        "page_index": 20,
+        "context": "~LAND CO-ORDINATION BRANCH Operating procedures and allocation criteria gov- erning the disbursement of federal funds under the branch’s Municipal Land Development Program were completed early in the fiscal year. The munic-",
+        "source_url": "https://archive.org/details/39290109040115/page/n20/mode/2up"
+      },
+      "right": {
+        "year": 1976,
+        "volume_label": "1976/77",
+        "heading": "nd co-ordination branch",
+        "page_index": 22,
+        "context": "nd co-ordination branch ollowing municipalities were allocated funding during the year under review: rane development $ 350,000 River development 120,000 Lake development 2,750,000",
+        "source_url": "https://archive.org/details/39290109040123/page/n22/mode/2up"
+      },
+      "review_note": "Same NPDC branch with OCR truncation."
+    },
+    {
+      "classification": "possible_rename",
+      "similarity": 0.743,
+      "scope": "ministry",
+      "scope_label": "Ontario Ministry of Housing",
+      "left": {
+        "year": 1975,
+        "volume_label": "1975/76",
+        "heading": "Neighborhood Improvement Program",
+        "page_index": 16,
+        "context": "renewal branch. The specific programs adminis- tered by this branch include: Neighborhood Improvement Program (NIP) For 1975, 33 municipalities were allocated a total of $15 million (federal). These municipalities were selected by the community renewal branch in con-",
+        "source_url": "https://archive.org/details/39290109040115/page/n16/mode/2up"
+      },
+      "right": {
+        "year": 1976,
+        "volume_label": "1976/77",
+        "heading": "Neighborhood Improvement",
+        "page_index": 13,
+        "context": "will improve the total urban environment for these homes. Neighborhood Improvement Program (NIP) NIP offers grant and loan assistance to municipalities to upgrade older residential neighborhoods under the terms of an annual",
+        "source_url": "https://archive.org/details/39290109040123/page/n13/mode/2up"
+      },
+      "review_note": "Same ministry neighborhood-improvement program."
+    }
+  ],
+  "limitations": [
+    "Only manually validated alignments are displayed.",
+    "OCR errors remain visible in excerpts and headings.",
+    "An alignment establishes comparable document structure, not policy intent.",
+    "The result applies to this frozen corpus and does not generalize automatically."
+  ]
+}

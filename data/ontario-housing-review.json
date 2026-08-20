@@ -1,0 +1,33 @@
+{
+  "corpus": "ontario-housing-1974-1977",
+  "reviewer": "Siddhant Rai with source-page verification",
+  "criteria": "A valid alignment names the same program, branch, scoped financial note, or equivalent structural section in adjacent volumes. A shared phrase alone is insufficient.",
+  "minimum_sample": 20,
+  "target_precision": 0.9,
+  "labels": [
+    {"key": "1974|1975|ohc|29|1 comparative figures|ohc|34|1 comparative figures", "valid_alignment": true, "note": "Same OHC financial-note section."},
+    {"key": "1974|1975|ohc|29|2 accounting policies|ohc|34|2 accounting policies", "valid_alignment": true, "note": "Same OHC accounting-policy section."},
+    {"key": "1974|1975|ohc|29|5 loss on provincial housing|ohc|34|loss on provincial housing", "valid_alignment": true, "note": "Same OHC operational-loss note."},
+    {"key": "1974|1975|omc|37|5 remuneration of directors|omc|52|remuneration of directors", "valid_alignment": true, "note": "Same OMC remuneration disclosure."},
+    {"key": "1974|1975|ministry|6|community planning study grants|ministry|13|community planning study grants", "valid_alignment": true, "note": "Same ministry grant program."},
+    {"key": "1974|1975|ministry|8|community renewal branch|ministry|16|community renewal branch", "valid_alignment": true, "note": "Same ministry branch."},
+    {"key": "1974|1975|ministry|15|ontario housing action program|ministry|7|ontario housing action program", "valid_alignment": true, "note": "Same named housing program."},
+    {"key": "1974|1975|ministry|2|may it please your honour|ministry|2|may it please your honour ser", "valid_alignment": false, "note": "Repeated salutation, not a meaningful section."},
+    {"key": "1974|1975|oshc|32|5 rental housing property at|oshc|39|rental housing property at cost", "valid_alignment": true, "note": "Same OSHC property note with OCR truncation."},
+    {"key": "1974|1975|ohc|27|loss on public housing operations|ohc|29|loss on housing operations", "valid_alignment": true, "note": "Same OHC statement line with a shortened heading."},
+    {"key": "1974|1975|ohc|29|4 investment in properties under|ohc|34|3 investment in properties", "valid_alignment": true, "note": "Same OHC investment note, renumbered."},
+    {"key": "1974|1975|ministry|6|ns administration division|ministry|10|plans administration division", "valid_alignment": true, "note": "Same division; left OCR lost the word prefix."},
+    {"key": "1974|1975|omc|36|rio mortgage corporation schedule 1|omc|46|ontario mortgage corporation schedule ii", "valid_alignment": true, "note": "Same OMC administration-expense schedule, renumbered."},
+    {"key": "1974|1975|oshc|32|ed land at cost|oshc|39|on leased land at cost", "valid_alignment": true, "note": "Same OSHC leased-land note with OCR truncation."},
+    {"key": "1975|1976|oshc|39|1 comparative figures|oshc|42|comparative figures", "valid_alignment": true, "note": "Same OSHC financial-note section."},
+    {"key": "1975|1976|ohc|34|1 comparative figures|ohc|33|1 comparative figures", "valid_alignment": true, "note": "Same OHC financial-note section."},
+    {"key": "1975|1976|oshc|39|2 accounting policies|oshc|42|accounting policies", "valid_alignment": true, "note": "Same OSHC accounting-policy section."},
+    {"key": "1975|1976|ministry|7|ontario housing action program|ministry|7|ontario housing action", "valid_alignment": true, "note": "Same named housing program."},
+    {"key": "1975|1976|ohc|34|rent supplement payments|ohc|34|rent supplement payments to landlords", "valid_alignment": true, "note": "Same OHC rent-supplement section."},
+    {"key": "1975|1976|ohc|34|loss on provincial housing|ohc|34|loss on provincial housing operations", "valid_alignment": true, "note": "Same OHC operational-loss note."},
+    {"key": "1975|1976|oshc|23|housing production|oshc|24|sted housing production", "valid_alignment": true, "note": "Same production section; right OCR lost the prefix."},
+    {"key": "1975|1976|ministry|6|equal opportunity program|ministry|6|opportunity program", "valid_alignment": true, "note": "Same ministry program with OCR truncation."},
+    {"key": "1975|1976|npdc|20|land co ordination branch|npdc|22|nd co ordination branch", "valid_alignment": true, "note": "Same NPDC branch with OCR truncation."},
+    {"key": "1975|1976|ministry|16|neighborhood improvement program|ministry|13|neighborhood improvement", "valid_alignment": true, "note": "Same ministry neighborhood-improvement program."}
+  ]
+}

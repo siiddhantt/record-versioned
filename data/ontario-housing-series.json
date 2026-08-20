@@ -1,0 +1,53 @@
+{
+  "id": "ontario-housing-1974-1977",
+  "title": "Ontario Ministry of Housing Annual Report",
+  "source_collection": "governmentpublications",
+  "purpose": "comparison-validation",
+  "scopes": [
+    {
+      "id": "ministry",
+      "label": "Ontario Ministry of Housing",
+      "aliases": ["Ontario Ministry of Housing", "Ministry of Housing"]
+    },
+    {
+      "id": "ohc",
+      "label": "Ontario Housing Corporation",
+      "aliases": ["Ontario Housing Corporation"]
+    },
+    {
+      "id": "omc",
+      "label": "Ontario Mortgage Corporation",
+      "aliases": ["Ontario Mortgage Corporation", "Rio Mortgage Corporation"]
+    },
+    {
+      "id": "oshc",
+      "label": "Ontario Student Housing Corporation",
+      "aliases": ["Ontario Student Housing Corporation", "Ontario Student Housing"]
+    },
+    {
+      "id": "npdc",
+      "label": "North Pickering Development Corporation",
+      "aliases": ["North Pickering Development Corporation"]
+    }
+  ],
+  "volumes": [
+    {
+      "year": 1974,
+      "label": "1974/75",
+      "identifier": "39290109040107",
+      "storage_base_url": "https://ia800906.us.archive.org/24/items/39290109040107"
+    },
+    {
+      "year": 1975,
+      "label": "1975/76",
+      "identifier": "39290109040115",
+      "storage_base_url": "https://ia800406.us.archive.org/23/items/39290109040115"
+    },
+    {
+      "year": 1976,
+      "label": "1976/77",
+      "identifier": "39290109040123",
+      "storage_base_url": "https://ia803108.us.archive.org/6/items/39290109040123"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Follow programs, funding, and public institutions across annual reports, with every conclusion tied to the original scanned pages."
+    >
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Public Record, Versioned">
+    <meta property="og:description" content="See how the public record changed, with every conclusion tied to the original scanned pages.">
+    <meta property="og:image" content="og.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Public Record, Versioned">
+    <meta name="twitter:description" content="See how the public record changed, with every conclusion tied to the original scanned pages.">
+    <meta name="twitter:image" content="og.png">
+    <title>Public Record, Versioned</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" type="module"></script>
+  </head>
+  <body>
+    <nav class="topbar" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Public Record, Versioned home">
+        <span class="brand-mark" aria-hidden="true">PR</span>
+        <span>Public Record, Versioned</span>
+      </a>
+      <div class="nav-links">
+        <a href="#changes">Changes</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#evidence">Evidence</a>
+      </div>
+    </nav>
+
+    <header class="masthead" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>Evidence-first public records</p>
+        <h1>See how the public record changed.</h1>
+        <p class="lede" id="description">Loading the frozen evidence set...</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#changes">Explore what changed</a>
+          <a class="button button-secondary" href="#timeline">View the source timeline</a>
+        </div>
+      </div>
+      <aside class="hero-proof" aria-label="Prototype evidence summary">
+        <p class="proof-label">Current evidence set</p>
+        <p class="proof-title">Ontario housing<br>1974 to 1977</p>
+        <dl class="proof-grid">
+          <div><dt>Volumes</dt><dd>3</dd></div>
+          <div><dt>Reviewed</dt><dd>24</dd></div>
+          <div><dt>Validated</dt><dd id="hero-valid-count">23</dd></div>
+          <div><dt>Precision</dt><dd id="hero-precision">95.8%</dd></div>
+        </dl>
+        <p class="proof-note">Every published comparison links back to the exact scanned pages.</p>
+      </aside>
+    </header>
+
+    <main>
+      <section class="audience-strip" aria-label="Who this helps">
+        <p class="strip-intro">Built for people who need to understand a record, not just find a PDF.</p>
+        <ul>
+          <li>Journalists tracing a public claim</li>
+          <li>Researchers following policy over time</li>
+          <li>Archivists repairing incomplete context</li>
+        </ul>
+      </section>
+
+      <section class="changes-section" id="changes" aria-labelledby="changes-title">
+        <div class="section-heading changes-heading">
+          <div>
+            <p class="section-label">Change digest</p>
+            <h2 id="changes-title">Start with what matters.</h2>
+          </div>
+          <p class="section-copy">Five reviewed threads show how a program, funding decision, or public institution moves through the record.</p>
+        </div>
+
+        <div class="explorer-toolbar" role="search">
+          <label class="search-field" for="story-search">
+            <span>Search this record</span>
+            <input id="story-search" type="search" placeholder="Try housing, grants, municipalities..." autocomplete="off">
+          </label>
+          <div class="filter-chips" id="story-filters" aria-label="Filter changes by type"></div>
+        </div>
+
+        <p class="result-count quiet" id="story-result-count" aria-live="polite"></p>
+        <div class="story-grid" id="story-grid"></div>
+        <div class="empty-state" id="story-empty" hidden>
+          <p>No reviewed change matches that search.</p>
+          <button class="text-button" id="clear-story-search" type="button">Clear filters</button>
+        </div>
+      </section>
+
+      <section class="timeline-section" id="timeline" aria-labelledby="timeline-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">Source timeline</p>
+            <h2 id="timeline-title">Three reports, one sequence.</h2>
+          </div>
+          <p class="section-copy">The catalogue assigns the same year to every item. Internal volume labels recover the actual order.</p>
+        </div>
+        <ol class="timeline" id="timeline-list"></ol>
+      </section>
+
+      <section class="method-section" aria-labelledby="method-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">How to trust it</p>
+            <h2 id="method-title">A claim is only as good as its trail.</h2>
+          </div>
+          <p class="section-copy">Automation proposes connections. Reviewed source pages decide what appears here.</p>
+        </div>
+        <ol class="method-list">
+          <li><span>01</span><strong>Recover the series</strong><p>Use internal labels when catalogue metadata is missing or misleading.</p></li>
+          <li><span>02</span><strong>Align within context</strong><p>Compare sections only inside the same institution and adjacent volumes.</p></li>
+          <li><span>03</span><strong>Review the claim</strong><p>Reject shared phrases that do not represent the same program or section.</p></li>
+          <li><span>04</span><strong>Keep the source close</strong><p>Link every excerpt to the exact scanned page on Internet Archive.</p></li>
+        </ol>
+      </section>
+
+      <section class="evidence-section" id="evidence" aria-labelledby="evidence-title">
+        <div class="section-heading evidence-heading">
+          <div>
+            <p class="section-label">Evidence index</p>
+            <h2 id="evidence-title">Audit every alignment.</h2>
+          </div>
+          <p class="section-copy"><span id="valid-count">0</span> validated alignments from a <span id="reviewed-count">0</span>-item frozen review sample at <span id="precision">0%</span> precision.</p>
+        </div>
+
+        <div class="evidence-toolbar">
+          <label class="search-field compact" for="evidence-search">
+            <span>Find evidence</span>
+            <input id="evidence-search" type="search" placeholder="Search headings or report text" autocomplete="off">
+          </label>
+          <label class="filter-label" for="scope-filter">
+            Report scope
+            <select id="scope-filter">
+              <option value="all">All institutions</option>
+            </select>
+          </label>
+        </div>
+        <p class="result-count quiet" id="result-count" aria-live="polite"></p>
+        <div class="evidence-groups" id="evidence-list"></div>
+      </section>
+
+      <section class="limits" aria-labelledby="limits-title">
+        <div>
+          <p class="section-label">Boundary of the claim</p>
+          <h2 id="limits-title">Useful without pretending to know more.</h2>
+        </div>
+        <ul id="limitations"></ul>
+      </section>
+    </main>
+
+    <footer>
+      <p><strong>Public Record, Versioned</strong></p>
+      <p>Built from public Internet Archive metadata and DjVu OCR derivatives. Every published comparison remains source-linked.</p>
+    </footer>
+
+    <dialog class="story-dialog" id="story-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-shell">
+        <header class="dialog-header">
+          <div>
+            <p class="section-label" id="dialog-kicker"></p>
+            <h2 id="dialog-title"></h2>
+          </div>
+          <button class="dialog-close" id="dialog-close" type="button" aria-label="Close change detail">Close</button>
+        </header>
+        <p class="dialog-summary" id="dialog-summary"></p>
+        <div class="dialog-insight" id="dialog-insight"></div>
+        <div class="dialog-evidence" id="dialog-evidence"></div>
+      </div>
+    </dialog>
+  </body>
+</html>

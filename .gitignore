@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+artifacts/
+data/raw/
+site/dist/
+site/node_modules/
+site/.vercel/
+site/.wrangler/
+.env
+.env.*
